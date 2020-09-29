@@ -1,0 +1,69 @@
+.result{
+    text-decoration: underline;
+}
+
+h2, .headLink{
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-shrink: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+article{
+    width: 30rem;
+    background-color: beige;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 0 10px lightslategray;
+    min-height: 10rem;
+}
+
+article p{
+    font-size: 1.7rem;
+}
+
+
+
+form{
+    position: relative;
+    min-height: 10rem;
+    
+}
+
+form button[type="submit"]{
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 1.5rem;
+    
+}
+
+
+form label::before{
+    content: " ";
+    display: block;
+}
+form label{
+    font-size: 1.2rem;
+}
+
+form input{
+    position: absolute;
+    right: 20%;
+}
+
+.score{
+    text-align: center;
+    
+}
+
